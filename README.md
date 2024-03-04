@@ -1,12 +1,12 @@
 # Dicoding Dashboard 
-## Setup environment
-```bash
-conda create --name main-ds python=3.9
-conda activate main-ds
-pip install numpy pandas scipy matplotlib seaborn jupyter streamlit babel ```bash
-
-
+## Setup environment di Virtual Studio Code
+```
+python3 -m venv env
+./env/scripts/activate
+pip install  pandas matplotlib seaborn streamlit  
+```
 ## Run steamlit app
-```bash
+```
 streamlit run dashboard.py
-```bash
+```
+
